@@ -26,7 +26,7 @@ Travis Kelce was drafted in the 3rd round (63rd overall) of the 2013 NFL Draft b
 
 Kelce's model's training data consists of 96 games worth of stats. 
 
-![Kelce Fantasy Points](/images/logo.png)
+![Kelce Fantasy Points](/images/TK-FP.png)
 
 ## Conclusions
 In conclusion, predicting fantasy football points can be difficult despite trends in player performance. Player performance can vary despite favorable match-ups and recent positive performances. However, the model predicts points within a reasonable range as it tries to reduce the error between actual points and predicted points from the data. 
