@@ -24,9 +24,29 @@ different number of games played, and have generally done well in their career.
 ### Travis Kelce
 Travis Kelce was drafted in the 3rd round (63rd overall) of the 2013 NFL Draft by the Kansas City Chiefs. He plays as a tight-end and has become one of the best players at the position.
 
-Kelce's model's training data consists of 96 games worth of stats. 
+Kelce's model's training data consists of 96 games worth of stats. The following graph shows his fantasy points scored for each game played in his career. 
 
-![Kelce Fantasy Points](/images/TK-FP.png)
+![Kelce Fantasy Points](/Images/TK-FP.png)
+
+Kelce's performance over the years range from 0 to upwards of 30 points in a single game. His career average is 12.2 points per game, giving him a generous floor and a very 
+high ceiling in terms of fantasy points, especially at the TE position. In the 2020/2021 season, he is averaging 16.3 points per game over 10 games played so far. His performances have been steadily increasing since his rookie year, making him one of the most consistent performers at the position.
+
+![Kelce Histogram](/Images/TK-Hist.png)
+
+As show in the histogram, Kelce averages between 7-12 points for most games, and has roughly 6 times more games scoring more than 12 points than he does scoring less than 7 points.
+
+![Kelce Bivariate](/Images/TK-BV.png)
+
+Now I'd like to take a closer look at his performances against the varying performance of the defense he is facing. Typically, players are believed to have a better matchup and score more points when the opposing defense has allowed more yards to the respective position of the player. Kelce has shown to do well regardless of how well the opposing defense has played. The graph shows most of the defenses he faces average between 200-300 passing yards allowed, which range from medium to low level caliber, as a high caliber defense would allow around less than 150 passing yards per game. In these matchups, Kelce scores upwards of 10 points as expressed by the darker blue shades on the graph. 
+
+After training the model on Kelce's data, the model predicted the following scores for each game played so far in the 2020/2021 season.
+
+![Kelce Preds](/Images/TK-Preds.png)
+Graph 1
+
+![Kelce PredsError](/Images/TK-PredError.png)
+Graph 2
+
 
 ## Conclusions
 In conclusion, predicting fantasy football points can be difficult despite trends in player performance. Player performance can vary despite favorable match-ups and recent positive performances. However, the model predicts points within a reasonable range as it tries to reduce the error between actual points and predicted points from the data. 
