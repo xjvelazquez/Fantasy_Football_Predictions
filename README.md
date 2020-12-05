@@ -50,7 +50,13 @@ You can see that the model predicted more conservatively, which is prefered as i
 This graph shows the prediction error by points. As you can see, out of 10 games in the test data, 5 predicted scores were within +/- 4 points of the actual score, and three of those games were within less than +/- 1 point within the actual score. This is very encouraging as 50% of the games were predicted within reason, while the other 50% of games Kelce scored 6+ points than what was predicted. 
 
 ### Frank Gore
-Frank Gore was drafted 65th overall by the San Francisco 49ers in the 2005 NFL Draft. He plays at running back and has become one of the most consistent performers in the game. He is widely admired for his toughness and durability
+Frank Gore was drafted 65th overall by the San Francisco 49ers in the 2005 NFL Draft. He plays at running back and has become one of the most consistent performers in the game. He is widely admired by players and fans alike for his toughness and durability throughout the years. 
+
+With over 200 games played, there is a lot of data to explore. We'll begin by looking at the fantasy points earned. 
+
+![Frank Gore Fantasy Points](/Images/FG-FP.png)
+
+Gore's fantasy production peaked between his 2nd and 6th season in the league, averaging ### points during this period. He began to slowly regress and maintained an average of ### points in the time after to the present. He's averaged ### fantasy points over the course of his career. 
 
 
 
