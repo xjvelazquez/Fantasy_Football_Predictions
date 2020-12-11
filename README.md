@@ -64,4 +64,4 @@ Gore's fantasy production peaked between his 2nd and 6th season in the league, a
 In conclusion, predicting fantasy football points can be difficult despite trends in player performance. Player performance can vary despite favorable match-ups and recent positive performances. However, the model predicts points within a reasonable range as it tries to reduce the error between actual points and predicted points from the data. 
 Looking forward, I would like to continue improving the performance of the model through hypertuning and adjusting the architecture. I would also look to restructure the data 
 used to train the model by creating a dataset that includes all player performances rather than individual player statistics. This would allow the model to train on more data 
-and potentially create a more accurate model. 
+and potentially create a more accurate model. Overall, creating a model that accurately predicts the random-like data that comes from sports is valuable and useful for solving other problems in the world with similar data. 
