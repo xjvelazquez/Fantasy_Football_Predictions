@@ -18,8 +18,8 @@ The model currently consists of a 5-layer deep neural network with dropout layer
 number of fantasy points earned for a player. Each player's data is trained on their own individual model. Although the amount of data varies for each player, the average number of games played is less than 100. With such limited data, a deeper model is not needed, and did not improve accuracy. The data is split into training and testing data, with the testing data being games played in the 2020-2021 season. Each hidden layer utilizes ReLU as its activation function and has sizes of 128, 256, 256, 256, and 1, respectively. 
 
 ## Case Study
-In this case study, I explored the data of two players, Frank Gore and Travis Kelce. I chose these two players as they play in different positions on the offense, have a
-different number of games played, and have generally done well in their career.
+In this case study, I explored the data of one player, Travis Kelce. I chose this player as he has generally done well in his career, and has scored a wide range of points 
+throughout his career.
 
 ### Travis Kelce
 Travis Kelce was drafted in the 3rd round (63rd overall) of the 2013 NFL Draft by the Kansas City Chiefs. He plays as a tight-end and has become one of the best players at the position.
@@ -48,16 +48,6 @@ You can see that the model predicted more conservatively, which is prefered as i
 ![Kelce PredsError](/Images/TK-PredError.png)
 
 This graph shows the prediction error by points. As you can see, out of 10 games in the test data, 5 predicted scores were within +/- 4 points of the actual score, and three of those games were within less than +/- 1 point within the actual score. This is very encouraging as 50% of the games were predicted within reason, while the other 50% of games Kelce scored 6+ points than what was predicted. 
-
-### Frank Gore
-Frank Gore was drafted 65th overall by the San Francisco 49ers in the 2005 NFL Draft. He plays at running back and has become one of the most consistent performers in the game. He is widely admired by players and fans alike for his toughness and durability throughout the years. 
-
-With over 200 games played, there is a lot of data to explore. We'll begin by looking at the fantasy points earned. 
-
-![Frank Gore Fantasy Points](/Images/FG-FP.png)
-
-Gore's fantasy production peaked between his 2nd and 6th season in the league, averaging ### points during this period. He began to slowly regress and maintained an average of ### points in the time after to the present. He's averaged ### fantasy points over the course of his career. 
-
 
 
 ## Conclusions
